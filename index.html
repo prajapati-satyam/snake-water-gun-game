@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="snake water gun game.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake water gun game</title>
+    <meta name="description" content="free to play, snake water gun game, better ui and ux">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body onload="scoreDisplay();">
+    <!-- <audio src="select-sound-121244.mp3" id="au"></audio> -->
+    <div class="main text-center">
+    <h2 class="mx-4 my-4">Welcome</h2>
+    <div class="text-center bg-dark text-white rounded min-vw-100 py-2">
+        <nav>
+            <span class="mx-4 my-4">Your scrore : </span>  
+            <span class="mx-4 my-4">Computer score : </span>  
+            <span class="mx-4 my-4">Total tie : </span>  
+            <button id="reset" class="btn btn-info mx-2" title="click me reset score">Reset</button>
+            <button id="copy" class="btn btn-warning"><a class="text-decoration-none text-black" href="https://icedrive.net/s/aQAtXbb71xSZ7A9hj8Y9AGSfFzYa">Download source Code</a></button>
+        </nav>
+    </div>
+    <div class="container-fluid my-4">
+            <button id="snake" class="btn btn-outline-success mx-2" title="click me for choose snake" >Snake</button>
+            <button id="water" class="btn btn-outline-info mx-2" title="click me for choose water">Water</button>
+            <button id="gun" class="btn btn-outline-danger mx-2" title="click me for choose gun">Gun</button>
+    </div>
+    <div class="mx-2 my-2">
+        <p class="mx-2 my-2" id="result"></p>
+        <p class="mx-2 my-2" id="userChoiseDisplay"></p>
+        <p class="mx-2 my-2" id="computerChoiseDisplay"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
