@@ -23,7 +23,7 @@ try {
 } catch(err) {
     console.log(err)
 }
-// let audio = document.getElementById('au');
+let audio = document.getElementById('au');
 function randomChoise() {
     let choise = ["snake", "water", "gun"];
     let random = Math.floor(Math.random() * 3);
@@ -31,7 +31,7 @@ function randomChoise() {
     return choise[random];
 }
 function snakeChoose(userchoise, computerchoise) {
-    // audio.play();
+    audio.play();
     userchoise = 'snake';
     computerchoise = randomChoise();
     if(computerchoise === "snake") {
@@ -56,7 +56,7 @@ function snakeChoose(userchoise, computerchoise) {
     // console.log(computerchoise);
 }
 function waterChoose(userchoise, computerchoise) {
-    // audio.play();
+    audio.play();
     userchoise = "water";
     computerchoise = randomChoise();
     if (computerchoise === "snake") {
@@ -80,7 +80,7 @@ function waterChoose(userchoise, computerchoise) {
     }
 }
 function gunChoose(userchoise, computerchoise) {
-    // audio.play();
+    audio.play();
     userchoise = "gun";
     computerchoise = randomChoise();
     if (computerchoise === "snake") {
