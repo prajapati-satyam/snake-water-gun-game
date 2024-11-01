@@ -24,5 +24,5 @@ If you'd like to run this game locally:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/snake-water-gun-game.git
+   git clone https://github.com/prajapati-satyam/snake-water-gun-game
    cd snake-water-gun-game
